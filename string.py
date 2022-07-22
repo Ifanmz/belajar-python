@@ -1,13 +1,16 @@
 # learning string
+s = '''Ini adalah string
+yang memiliki baris pertama
+dan selanjutnya baris kedua'''
 
-string = "test string"
-print(string)
+sumString = "2" + "3"
 
-emptyString = " "
+print(sumString, type(sumString))
 
-firstName = "Ifan"
-midleName = "Muhamad"
-lastName = "Zaenudin"
+print(s, type(s))
 
-fullName = firstName + emptyString + midleName + emptyString + lastName
-print(fullName)
+kata = 'dicoding'
+kata = kata.upper()
+print(kata)
+kata = kata.lower()
+print(kata)
