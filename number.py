@@ -14,3 +14,9 @@ print(e, "type: ", type(e))
 # complex numbers
 complexNumber = 3 + 2j
 print(complexNumber, "type: ", type(complexNumber))
+
+angka = 10
+print (str(angka).zfill(3));
+
+angka = -0.45
+print (str(angka).zfill(6));
