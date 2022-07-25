@@ -9,3 +9,7 @@ print(fullName)
 
 fullNameNewFormat = f"Hello {firstName} {midleName} {lastName}"
 print(fullNameNewFormat)
+
+kalimat = "Belajar Python di Dicoding sangat menyenangkan"
+print("Dicoding" in kalimat)
+print("Wawa" in kalimat)

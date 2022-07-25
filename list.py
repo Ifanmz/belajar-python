@@ -64,3 +64,17 @@ print(set([1,2,3]))
 print(tuple({5,6,7}))
 print(list('hello'))
 print(dict([[1,2],[3,4]]))
+
+print("================================================================")
+contohList = [1,2,3,4,5,6,7,8,9]
+print(len(contohList), "min: ", min(contohList), "max: ", max(contohList), "count: ",contohList.count(3))
+
+contohList2 = ["a", "b", "c"]
+
+mergeList = contohList + contohList2
+
+print(mergeList, "replikasi contohList2: ", contohList2 * 2)
+
+kendaraan = ['motor', 'mobil', 'helikopter', 'pesawat']
+kendaraan.sort()
+print(kendaraan)

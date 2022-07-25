@@ -20,3 +20,7 @@ print (str(angka).zfill(3));
 
 angka = -0.45
 print (str(angka).zfill(6));
+
+angka = [100, 1000, 500, 200, 5]
+angka.sort()
+print(angka)
